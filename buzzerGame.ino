@@ -1,5 +1,5 @@
-int ledPin = 13;
-const int buzzer = 9;
+int ledPin = 13; // this pin in arduino to be connected and work with LED
+const int buzzer = 9; // this pin in arduino to be connected and work with the Buzzer component
 
 void setup(){
   pinMode(ledPin, OUTPUT);
